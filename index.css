@@ -1,0 +1,7 @@
+
+.container {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: repeat(3, 200px);
+}
