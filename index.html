@@ -4,17 +4,25 @@
     <head>
         <meta charset="utf-8">
         <title>Grid Test</title>
+        <style>
+            .container > div{
+                background: blue;
+                padding: 1em;
+            }
+            .container > div:nth-child(odd){
+                background: #dddddd
+            }
+        </style>
     </head>
 
-    <body class="container">
-        <section class="left-side">
-            will test
-        </section>
-        <main class="center">
-            big box
-        </main>
-        <section class="right-side">
-            right side
-        </section>
+    <body>
+        <div class="container">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minus vitae, animi necessitatibus esse dolor id asperiores omnis totam illum!
+            </div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, soluta?
+            </div>
+        </div>
     </body>
 </html>
