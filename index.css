@@ -5,7 +5,7 @@
 }
 .container > div:nth-child(odd){
     background: #eeeeee;
-    padding: 1em;
+    padding: 2px;
 }
 .container > div:nth-child(even){
     background: #dddddd
